@@ -22,8 +22,3 @@ providing a long-term monthly panel of U.S. market and macroeconomic variables.
 - **Equity returns** (`vwret`) represent value-weighted stock market performance.  
 - Macroeconomic predictors (`dp`, `10y`, etc.) are used for forward-looking ERP models.  
 - All returns are expressed in decimal form (e.g., 0.01 = 1%).
-
----
-
-📘 *For detailed variable definitions and data construction notes, see the file:*  
-`data/us_equity_factors_1963_2025说明.docx`
