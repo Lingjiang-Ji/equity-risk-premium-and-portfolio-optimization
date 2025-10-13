@@ -15,7 +15,7 @@ The dataset includes market returns, T-bill and bond yields, dividend-price rati
 and other variables commonly used in equity premium research.  
 
 A full description of the data structure and sources is available in  
-[`data_overview.md`](data/Data_Overview)
+[`data_overview.md`](data/Data_Overview.md)
 
 
 ### 🧮 Methodology
