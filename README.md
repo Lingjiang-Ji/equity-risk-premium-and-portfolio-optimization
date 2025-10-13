@@ -7,6 +7,17 @@ Estimate and analyze the **U.S. equity risk premium (ERP)** from 1970–2024 usi
 The **equity risk premium** represents the extra return investors require for holding risky equities over risk-free assets.  
 Understanding its magnitude, variability, and determinants is central to asset pricing and long-term investment strategy.
 
+### 📊 Data Summary
+
+The analysis uses monthly U.S. market and macroeconomic data from **1970 to 2025**,  
+compiled from the **Kenneth R. French Data Library**, **FRED**, and **CRSP** databases.  
+The dataset includes market returns, T-bill and bond yields, dividend-price ratios,  
+and other variables commonly used in equity premium research.  
+
+A full description of the data structure and sources is available in  
+[`data/us_equity_factors_1963_2025说明.docx`](data/us_equity_factors_1963_2025说明.docx).
+
+
 ### 🧮 Methodology
 1. **Historical ERP Estimation** — Compute mean excess return of equities over T-bills and construct confidence intervals via OLS regression.  
 2. **Rolling Stability Analysis** — Evaluate the 10-year rolling ERP to study time variation and macroeconomic regimes.  
