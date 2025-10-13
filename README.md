@@ -15,7 +15,7 @@ The dataset includes market returns, T-bill and bond yields, dividend-price rati
 and other variables commonly used in equity premium research.  
 
 A full description of the data structure and sources is available in  
-[`data/us_equity_factors_1963_2025说明.docx`](data/us_equity_factors_1963_2025说明.docx).
+[`data_overview.md`](data/data_overview.md)
 
 
 ### 🧮 Methodology
@@ -32,6 +32,19 @@ A full description of the data structure and sources is available in
 - Rolling ERP reveals substantial time variation, declining post-2008.  
 - Forward-looking estimates (GGM, E/P) suggest current ERP of **~2–3% (real terms)**.  
 - Distribution diagnostics indicate **fat tails and negative skewness**, consistent with equity downside risk.
+
+### 📈 Visualization
+
+Below is the **10-year rolling (120-month) average of the equity risk premium (ERP)**, highlighting major shifts in investor risk appetite and market regimes.
+
+![Rolling ERP](outputs/figures/rolling_erp.png)
+
+The chart illustrates how realized ERP fluctuates over time — rising during recovery periods (e.g., post-2009) and declining during high-valuation or low-yield environments.  
+It visually supports the finding that the **ERP is positive but unstable**.
+
+Additional figures, including the monthly ERP series, are available in  
+[`outputs/figures`](outputs/figures).
+
 
 ### 🧠 Insights
 - The ERP is **positive but unstable** — it fluctuates with valuation and macroeconomic conditions.  
